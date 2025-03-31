@@ -17,6 +17,7 @@
   columns: 4,
   "Jméno", "Datum", "Změny", "Verze",
   "Adam Cvikl", "15.3.2025", "", "1.0",
+  "Adam Cvikl", "29.3.2025", "Přidání třídního diagramu", "1.1",
 )
 
 
@@ -117,3 +118,9 @@ Následující use case diagram znázorňuje interakce mezi uživateli a systém
 - 1. Systém zobrazí chybovou zprávu a nabídne možnost zkusit platbu znovu nebo vybrat jinou platební metodu.
 - 2. Uživatel vybere jinou platební metodu nebo opraví údaje a klikne na 'Zaplatit'.
 - 3. Systém zpracuje platbu a zobrazí potvrzení o úspěšném nákupu.
+
+
+= Třídní diagram
+Tento třídní diagram znázorňuje strukturu celého systému. Aktéři a další komponenty zapojené do správy záznamů o produktech jsou zde reprezentovány jako třídy, které mají své atributy a prostřednictvím metod vykonávají specifické činnosti v rámci systému.
+
+#figure(image("class-diagram.png"), caption: "Class diagram")
