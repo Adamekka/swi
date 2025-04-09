@@ -18,6 +18,7 @@
   "Jméno", "Datum", "Změny", "Verze",
   "Adam Cvikl", "15.3.2025", "", "1.0",
   "Adam Cvikl", "29.3.2025", "Přidání třídního diagramu", "1.1",
+  "Adam Cvikl", "9.4.2025", "Přidání aktivního diagramu", "1.2",
 )
 
 
@@ -124,3 +125,9 @@ Následující use case diagram znázorňuje interakce mezi uživateli a systém
 Tento třídní diagram znázorňuje strukturu celého systému. Aktéři a další komponenty zapojené do správy záznamů o produktech jsou zde reprezentovány jako třídy, které mají své atributy a prostřednictvím metod vykonávají specifické činnosti v rámci systému.
 
 #figure(image("class-diagram.png"), caption: "Class diagram")
+
+
+= Aktivní diagram - Používání e-shopu
+Tento aktivní diagram znázorňuje interakce mezi uživateli a systémem při používání e-shopu. Diagram ukazuje, jak uživatelé procházejí produkty a přidávají je do košíku.
+
+#figure(image("active-diagram.png"), caption: "Active diagram")
