@@ -1,0 +1,250 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15">
+  <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
+    <mxGraphModel dx="2728" dy="1108" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-52" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="100" width="840" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-41" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="160" width="720" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-27" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="500" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="G0_KDv4vPGg7mKOEqroH-3" target="aM9ryv3xv72pqoxQDRHE-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="200" />
+              <mxPoint x="240" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-5" value="Přidá produkt do košíku" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G0_KDv4vPGg7mKOEqroH-4">
+          <mxGeometry x="-0.1734" y="1" relative="1" as="geometry">
+            <mxPoint x="7" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="G0_KDv4vPGg7mKOEqroH-3" target="G0_KDv4vPGg7mKOEqroH-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="465" />
+              <mxPoint x="180" y="465" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-48" value="Odebere produkt z košíku" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G0_KDv4vPGg7mKOEqroH-46">
+          <mxGeometry x="-0.0059" y="1" relative="1" as="geometry">
+            <mxPoint y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=0;" edge="1" parent="1" source="G0_KDv4vPGg7mKOEqroH-3" target="G0_KDv4vPGg7mKOEqroH-56">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="220" y="680" />
+              <mxPoint x="220" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-59" value="Potvrdí košík" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G0_KDv4vPGg7mKOEqroH-58">
+          <mxGeometry x="-0.0155" y="2" relative="1" as="geometry">
+            <mxPoint y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-3" value="" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" vertex="1" parent="1">
+          <mxGeometry x="130" y="40" width="20" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-6" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="aM9ryv3xv72pqoxQDRHE-2" target="aM9ryv3xv72pqoxQDRHE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="430" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-7" value="Zkontroluje dostupnost produktu" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G0_KDv4vPGg7mKOEqroH-6">
+          <mxGeometry x="0.0529" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-9" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="250" as="sourcePoint" />
+            <mxPoint x="315" y="250" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="420" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-10" value="Je dostupný" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G0_KDv4vPGg7mKOEqroH-9">
+          <mxGeometry x="-0.0995" relative="1" as="geometry">
+            <mxPoint x="-10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-11" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="305" y="269.78" as="sourcePoint" />
+            <mxPoint x="140.05555555555566" y="269.78" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="228" y="269.78" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-12" value="Potvrdí přidání" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G0_KDv4vPGg7mKOEqroH-11">
+          <mxGeometry x="0.1303" relative="1" as="geometry">
+            <mxPoint x="8" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-13" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=horizontal;curved=0;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524.94" y="300" as="sourcePoint" />
+            <mxPoint x="314.94" y="300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="419.94" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-14" value="Není dostupný" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G0_KDv4vPGg7mKOEqroH-13">
+          <mxGeometry x="-0.0995" relative="1" as="geometry">
+            <mxPoint x="-10" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-15" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304.94" y="319.78" as="sourcePoint" />
+            <mxPoint x="139.99555555555565" y="319.78" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="227.94" y="319.78" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-16" value="Napíše chybovou hlášku" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G0_KDv4vPGg7mKOEqroH-15">
+          <mxGeometry x="0.1303" relative="1" as="geometry">
+            <mxPoint x="18" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-29" value="" style="endArrow=none;html=1;rounded=0;entryX=1.003;entryY=0.011;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G0_KDv4vPGg7mKOEqroH-30" target="G0_KDv4vPGg7mKOEqroH-30">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="260" as="sourcePoint" />
+            <mxPoint x="200" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-30" value="Alternative" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="220" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-32" value="Alternative" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="160" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-33" value="" style="endArrow=none;html=1;rounded=0;entryX=1.002;entryY=-0.002;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.017;exitY=0.065;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="G0_KDv4vPGg7mKOEqroH-41" target="G0_KDv4vPGg7mKOEqroH-32" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="23" y="190" as="sourcePoint" />
+            <mxPoint x="100" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="30" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-35" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;dashPattern=8 8;" edge="1" parent="1" source="G0_KDv4vPGg7mKOEqroH-27" target="G0_KDv4vPGg7mKOEqroH-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="280" y="280" as="sourcePoint" />
+            <mxPoint x="330" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-36" value="[Je dostupný]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="250" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-37" value="[Není dostupný]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="40" y="278" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-1" value="Košík" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="260" y="40" width="100" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-1" vertex="1">
+          <mxGeometry x="45" y="135" width="10" height="225" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-47" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-1">
+          <mxGeometry x="45" y="400" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-56" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-1">
+          <mxGeometry x="45" y="620" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-5" value="E-shop" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=0;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="480" y="40" width="100" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="aM9ryv3xv72pqoxQDRHE-6" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="aM9ryv3xv72pqoxQDRHE-5" vertex="1">
+          <mxGeometry x="45" y="155" width="10" height="205" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-49" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
+          <mxGeometry x="45" y="400" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-57" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="aM9ryv3xv72pqoxQDRHE-5">
+          <mxGeometry x="45" y="620" width="10" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-38" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315" y="380.00068965517255" as="sourcePoint" />
+            <mxPoint x="525" y="380.00068965517255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-39" value="Uloží košík" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G0_KDv4vPGg7mKOEqroH-38">
+          <mxGeometry x="0.1883" y="-1" relative="1" as="geometry">
+            <mxPoint x="-15" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-43" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.001;exitY=0.564;exitDx=0;exitDy=0;dashPattern=8 8;exitPerimeter=0;" edge="1" parent="1" source="G0_KDv4vPGg7mKOEqroH-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="420" as="sourcePoint" />
+            <mxPoint x="641" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-44" value="[Přidání produktu do košíku]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="390" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-45" value="[Odebrání produktu do košíku]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="420" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-50" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="315.00000000000045" y="480.00444444444435" as="sourcePoint" />
+            <mxPoint x="525.0000000000005" y="480.00444444444435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-51" value="Uloží košík" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G0_KDv4vPGg7mKOEqroH-50">
+          <mxGeometry x="-0.2292" y="-1" relative="1" as="geometry">
+            <mxPoint x="29" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-53" value="Loop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="110" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-54" value="" style="endArrow=none;html=1;rounded=0;entryX=0.131;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.008;exitY=0.09;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="G0_KDv4vPGg7mKOEqroH-52" target="G0_KDv4vPGg7mKOEqroH-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="150" as="sourcePoint" />
+            <mxPoint x="-30" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-55" value="[Akce uživatele]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-144" y="145" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-60" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;curved=0;" edge="1" parent="1" source="G0_KDv4vPGg7mKOEqroH-56" target="G0_KDv4vPGg7mKOEqroH-57">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0_KDv4vPGg7mKOEqroH-61" value="Provede objednávku" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="G0_KDv4vPGg7mKOEqroH-60">
+          <mxGeometry x="-0.1019" y="1" relative="1" as="geometry">
+            <mxPoint x="16" y="-9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

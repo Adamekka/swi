@@ -21,6 +21,7 @@
   "Adam Cvikl", "9.4.2025", "Přidání aktivního diagramu", "1.2.0",
   "Adam Cvikl", "4.5.2025", "Úprava use case diagramu", "1.2.1",
   "Adam Cvikl", "4.5.2025", "Úprava aktivního diagramu", "1.2.2",
+  "Adam Cvikl", "4.5.2025", "Přidáni sekvenčního diagramu", "1.3.0",
 )
 
 
@@ -133,3 +134,9 @@ Tento třídní diagram znázorňuje strukturu celého systému. Aktéři a dal�
 Tento aktivní diagram znázorňuje interakce mezi uživateli a systémem při používání e-shopu. Diagram ukazuje, jak uživatelé procházejí produkty a přidávají je do košíku.
 
 #figure(image("active-diagram.png"), caption: "Active diagram")
+
+
+= Sekvenční diagram - Úprava košíku
+Tento sekvenční diagram znázorňuje interakce mezi uživateli a systémem při úpravě košíku. Diagram ukazuje, jak uživatel přidává a odebírá produkty z košíku.
+
+#figure(image("sequence-diagram.png"), caption: "Sequence diagram")
