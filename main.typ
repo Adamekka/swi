@@ -16,7 +16,7 @@
 #table(
   columns: 4,
   "Jméno", "Datum", "Změny", "Verze",
-  "Adam Cvikl", "15.3.2025", "", "1.0",
+  "Adam Cvikl", "15.3.2025", "", "1.0.0",
   "Adam Cvikl", "29.3.2025", "Přidání třídního diagramu", "1.1.0",
   "Adam Cvikl", "9.4.2025", "Přidání aktivního diagramu", "1.2.0",
   "Adam Cvikl", "4.5.2025", "Úprava use case diagramu", "1.2.1",
