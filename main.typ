@@ -22,6 +22,7 @@
   "Adam Cvikl", "4.5.2025", "Úprava use case diagramu", "1.2.1",
   "Adam Cvikl", "4.5.2025", "Úprava aktivního diagramu", "1.2.2",
   "Adam Cvikl", "4.5.2025", "Přidáni sekvenčního diagramu", "1.3.0",
+  "Adam Cvikl", "5.5.2025", "Úprava use case diagramu", "1.3.1",
 )
 
 
