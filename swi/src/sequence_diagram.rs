@@ -3,17 +3,23 @@ use std::sync::{LazyLock, Mutex};
 
 static ESHOP: LazyLock<Mutex<EShop>> = LazyLock::new(|| {
     Mutex::new(EShop {
-        available_products: vec![],
+        available_products: vec![
+            Product::Computer("Dell".to_string()),
+            Product::Phone("iPhone".to_string()),
+        ],
     })
 });
 
 static CART: LazyLock<Mutex<ShoppingCart>> =
     LazyLock::new(|| Mutex::new(ShoppingCart { products: vec![] }));
 
-struct User;
+pub struct User;
 
 #[derive(Debug, PartialEq)]
-struct Product;
+pub enum Product {
+    Computer(String),
+    Phone(String),
+}
 
 struct ShoppingCart {
     products: Vec<Product>,
@@ -24,22 +30,26 @@ struct EShop {
 }
 
 impl User {
-    fn add_to_card(product: Product) -> Result<(), ()> {
+    pub fn new() -> Self {
+        User
+    }
+
+    pub fn add_to_card(&self, product: Product) -> Result<(), ()> {
         let mut cart = CART.lock().unwrap();
         cart.add_to_card(product)
     }
 
-    fn remove_from_cart(product: Product) -> Result<(), ()> {
+    pub fn remove_from_cart(&self, product: Product) -> Result<(), ()> {
         let mut cart = CART.lock().unwrap();
         cart.remove_from_cart(product)
     }
 
-    fn save_cart(&self) {
+    pub fn save_cart(&self) {
         let cart = CART.lock().unwrap();
         println!("Saving cart: {:?}", cart.products);
     }
 
-    fn make_order(&self) -> Result<(), ()> {
+    pub fn make_order(&self) -> Result<(), ()> {
         let cart = CART.lock().unwrap();
         if cart.products.is_empty() {
             println!("Cart is empty");
@@ -65,23 +75,23 @@ impl Product {
 impl ShoppingCart {
     fn add_to_card(&mut self, product: Product) -> Result<(), ()> {
         if product.is_available() {
+            println!("Product {:?} added to cart", product);
             self.products.push(product);
-            println!("Product added to cart");
             return Ok(());
         }
 
-        println!("Product is not available");
+        println!("Product {:?} is not available", product);
         Err(())
     }
 
     fn remove_from_cart(&mut self, product: Product) -> Result<(), ()> {
         if let Some(pos) = self.products.iter().position(|p| p == &product) {
             self.products.remove(pos);
-            println!("Product removed from cart");
+            println!("Product {:?} removed from cart", product);
             return Ok(());
         }
 
-        println!("Product not found in cart");
+        println!("Product {:?} not found in cart", product);
         Err(())
     }
 }
